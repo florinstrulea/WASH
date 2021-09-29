@@ -1,0 +1,7 @@
+.logo {
+	display: flex;
+	justify-content: center;
+	&__company img {
+		max-width: 15rem;
+	}
+}

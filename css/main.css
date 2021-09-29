@@ -1,3 +1,58 @@
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo__company img {
+  max-width: 15rem;
+}
 
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 1.5rem;
+}
+
+.form {
+  margin-top: 1rem;
+  background-color: #023047;
+  color: #fff;
+  padding: 3rem 2rem;
+}
+.form input,
+.form textarea {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  /*with this 1rem=10px instead of 16px */
+}
+
+body {
+  box-sizing: border-box;
+  background: #8ecae6;
+  font-family: "Comfortaa";
+}
+
+.btn-submit {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  max-width: 15rem;
+  padding: 1.5rem 3rem;
+  background-color: #8ecae6;
+  align-self: center;
+  border-radius: 2rem;
+}
 
 /*# sourceMappingURL=main.css.map */

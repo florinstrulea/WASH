@@ -1,0 +1,20 @@
+@use "./variables" as v;
+
+label {
+	// color: white;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-top: 1.5rem;
+}
+
+.form {
+	margin-top: 1rem;
+	background-color: v.$form;
+	color: v.$white;
+	padding: 3rem 2rem;
+	input,
+	textarea {
+		padding: 0.5rem;
+		font-size: 1.5rem;
+	}
+}

@@ -14,11 +14,60 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<title>Clean 3000</title>
 	</head>
-	<body>
+	<body id=main-page>
 		<header>
-			<div class="logo"></div>
+			<div class="logo container">
+				<div class="logo__company">
+					<img src="img/logo-clean3000-transparent.png" alt="" />
+				</div>
+			</div>
 		</header>
-		<main></main>
+		<main class="container">
+			<form action="#" method="#" class="row form" id="newPassage">
+				<div class="input-form d-flex flex-column col-md-2">
+					<label for="nom">Nom entreprise/client:</label
+					><input class="" type="text" id="nom" placeholder="nom client/entreprise" required />
+				</div>
+				<div class="input-form d-flex flex-column col-md-2">
+					<label for="">Date de passage:</label>
+					<input class="" type="date" id="date" placeholder="01/01/2021" required />
+				</div>
+				<div class="input-form d-flex flex-column col-md-2">
+					<label for="obsPrest">Observations prestataire:</label>
+					<textarea name="" id=obsPrest" cols="10" rows="3" placeholder="Obsérvations..."></textarea>
+				</div>
+				<div class="input-form d-flex flex-column col-md-2">
+					<label for="obsPrest">Observations client:</label>
+
+					<textarea name="" id=obsClient" cols="10" rows="3" placeholder="Obsérvations..."></textarea>
+				</div>
+				
+				<div class="input-form d-flex flex-column col-md-2">
+					<label for="signaturePrest">Nom prestataire:</label
+					><input
+						class=""
+						type="text"
+						id="signaturePrest"
+						placeholder="Nom prestatataire"
+						required
+					/>
+				</div>
+				<div class="input-form d-flex flex-column col-md-2">
+					<label for="signaturePrest">Nom entreprise/client:</label
+					><input
+						class=""
+						type="text"
+						id="signatureClient"
+						placeholder="Nom client/entreprise"
+						required
+					/>
+				</div>
+
+				<div class="input-form d-flex flex-column justify-content-center col-md-2">
+					<button type="submit" class="btn-submit">Valider</button>
+				</div>
+			</form>
+      		</main>
 		<script type="module" src="js/main.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
