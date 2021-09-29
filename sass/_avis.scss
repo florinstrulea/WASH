@@ -1,0 +1,30 @@
+@use "./variables" as v;
+@use "./logo";
+
+#avis-page {
+	background-color: white;
+	img {
+		background-color: v.$logo;
+		margin-top: 2rem;
+	}
+}
+.bordered {
+	border: 2px solid v.$black;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 1.2rem;
+}
+.title-avis {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 2rem 0;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+.fas {
+	color: v.$logo;
+	font-size: 5rem;
+	margin-top: 2rem;
+}
