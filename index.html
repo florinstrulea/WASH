@@ -10,12 +10,12 @@
 			href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
-        <script src="https://kit.fontawesome.com/052c7b0e15.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/052c7b0e15.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/main.css" />
 		<title>Clean 3000</title>
 	</head>
-	<body id=main-page>
+	<body id="main-page">
 		<header>
 			<div class="logo container">
 				<div class="logo__company">
@@ -24,10 +24,10 @@
 			</div>
 		</header>
 		<main class="container">
-			<form action="#" method="#" class="row form" id="newPassage">
+			<form action="#" method="#" class="row form" id="newClient">
 				<div class="input-form d-flex flex-column col-md-2">
-					<label for="nom">Nom entreprise/client:</label
-					><input class="" type="text" id="nom" placeholder="nom client/entreprise" required />
+					<label for="name">Nom entreprise/client:</label
+					><input class="" type="text" id="name" placeholder="nom client/entreprise" required />
 				</div>
 				<div class="input-form d-flex flex-column col-md-2">
 					<label for="">Date de passage:</label>
@@ -35,26 +35,32 @@
 				</div>
 				<div class="input-form d-flex flex-column col-md-2">
 					<label for="obsTech">Observations technicien:</label>
-					<textarea name="" id=obsPrest" cols="10" rows="3" placeholder="Obsérvations..."></textarea>
+					<textarea
+						name=""
+						id="obsTech"
+						cols="10"
+						rows="3"
+						placeholder="Obsérvations..."
+					></textarea>
 				</div>
 				<div class="input-form d-flex flex-column col-md-2">
 					<label for="obsClient">Observations client:</label>
 
-					<textarea name="" id=obsClient" cols="10" rows="3" placeholder="Obsérvations..."></textarea>
+					<textarea
+						name=""
+						id="obsClient"
+						cols="10"
+						rows="3"
+						placeholder="Obsérvations..."
+					></textarea>
 				</div>
-				
+
 				<div class="input-form d-flex flex-column col-md-2">
-					<label for="signaturePrest">Nom prestataire:</label
-					><input
-						class=""
-						type="text"
-						id="signaturePrest"
-						placeholder="Nom prestatataire"
-						required
-					/>
+					<label for="signatureTech">Nom technicien:</label
+					><input class="" type="text" id="signatureTech" placeholder="Nom technicien" required />
 				</div>
 				<div class="input-form d-flex flex-column col-md-2">
-					<label for="signaturePrest">Nom entreprise/client:</label
+					<label for="signatureClient">Nom entreprise/client:</label
 					><input
 						class=""
 						type="text"
@@ -68,8 +74,8 @@
 					<button type="submit" class="btn-submit">Valider</button>
 				</div>
 			</form>
-            <a href="./avis/avis.html">Go to page avis</a>
-      		</main>
+			<a href="./avis/avis.html">Go to page avis</a>
+		</main>
 		<script type="module" src="js/main.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>

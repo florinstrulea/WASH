@@ -1,19 +1,10 @@
 export default class Client {
-	constructor(
-		firstname,
-		lastname,
-		nights,
-		chamber,
-		breakfast = "oui",
-		startDate = new Date(),
-		endDate = "0"
-	) {
-		this.firstname = firstname.toUpperCase();
-		this.lastname = lastname.toUpperCase();
-		this.nights = nights;
-		this.chamber = chamber;
-		this.breakfast = breakfast;
-		this.startDate = startDate;
-		this.endDate = endDate;
+	constructor(name, date, obsTech, obsClient, nameTech, nameClient) {
+		this.name = name.toUpperCase();
+		this.date = date;
+		this.obsTech = obsTech;
+		this.obsClient = obsClient;
+		this.nameTech = nameTech;
+		this.nameClient = nameClient;
 	}
 }
