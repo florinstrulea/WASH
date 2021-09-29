@@ -21,21 +21,21 @@ function handleClick() {
 	return;
 }
 
-if (window.location.href.indexOf("index") > -1) {
-	newClient.addEventListener("submit", (e) => {
-		e.preventDefault();
-		handleClick();
-		// let client = new Client(
-		// 	name.value,
-		// 	dateTimeToday,
-		// 	obsTech.value,
-		// 	obsClient.value,
-		// 	signatureTech.value,
-		// 	signatureClient.value
-		// );
-		// clients.push(client);
-		window.location.href = "../avis/avis.html";
-		// console.log(clients);
-	});
-}
+newClient.addEventListener("submit", (e) => {
+	e.preventDefault();
+	handleClick();
+	newClient.reset();
+	// let client = new Client(
+	// 	name.value,
+	// 	dateTimeToday,
+	// 	obsTech.value,
+	// 	obsClient.value,
+	// 	signatureTech.value,
+	// 	signatureClient.value
+	// );
+	// clients.push(client);
+	window.location.href = "../avis/avis.html";
+	// console.log(clients);
+});
+//}
 // export default clients;
