@@ -20,7 +20,7 @@ function handleClick() {
 	sessionStorage.setItem("SIGNATURECLIENT", signatureClient.value);
 	return;
 }
-
+let clients = [];
 newClient.addEventListener("submit", (e) => {
 	e.preventDefault();
 	handleClick();
